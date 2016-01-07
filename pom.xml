@@ -32,6 +32,8 @@
 				 <archive>
 					<manifest>
 						<mainClass>${project.groupId}.App</mainClass>
+						<addClasspath>true</addClasspath>
+						<classpathPrefix> dependencias/</classpathPrefix>
 					</manifest>
 				  </archive>
 				</configuration>
